@@ -1,0 +1,223 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(26, 25, 25);
+    
+}
+
+.top_layout {
+    position: absolute;
+}
+
+.top_layout h1{
+    position: absolute;
+    color: rgb(31, 250, 239);
+    font-size: 70px;
+    top: 140px;
+    left: 880px;
+}
+
+.top_layout span{
+    color: rgb(45, 23, 241);
+}
+
+.top_layout img{
+    position: relative;
+    border-radius: 50%;
+    width: 150px;
+    left: 70px;
+    mix-blend-mode: lighten;
+}
+
+nav{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 68%;
+}
+
+nav ul li{
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(50, 204, 243);
+    transition: 0.15s;
+}
+
+nav ul li a:active{
+    text-decoration: none;
+    color: rgb(24, 62, 231);
+    transition: 0.15s;
+}
+
+.heading{
+    position: relative;
+    width: 800px;
+    color: white;
+    font-size: 24px;
+    top: 200px;
+    left: 90px;
+    line-height: 40px;
+}
+
+.heading h4{
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.heading span{
+    color: rgb(50, 204, 243);
+}
+
+.heading img{
+    position: absolute;
+    width: 300px;
+    top: 1px;
+    left: 880px;
+    mix-blend-mode: lighten;
+    opacity: 0.7;
+}
+
+.heading button{
+    background-color: rgb(30, 243, 232);
+    border: none;
+    padding: 10px;
+}
+
+.heading a{
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.heading button:hover, .heading a:hover{
+    background-color: white;
+    color: rgb(50, 204, 243);
+    transition: 0.15s;
+}
+
+.heading button:active, .heading a:active{
+    background-color: rgb(50, 204, 243);
+    color: white;
+    transition: 0.15s;
+}
+
+.webpages{
+    position: relative;
+    top: 490px;
+    margin: 70px;
+}
+
+#portfolio h2{
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    top: 800px;
+    left: 70px;
+}
+
+#portfolio span{
+    color: rgb(127, 229, 255);
+}
+.webpages img{
+    width: 300px;
+    margin-left: 10px;
+}
+
+#AboutMe{
+    position: relative;
+    top: 530px;
+    margin: 70px;
+    font-size: 30px;
+    text-align: justify;
+    line-height: 40px;
+    color: white;
+}
+
+#AboutMe span{
+    color: rgb(0, 238, 255);
+}
+
+#AboutMe h2{
+    color: rgb(28, 83, 235);
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+
+#contact{
+    position: relative;
+    top: 580px;
+    margin: 70px;
+    line-height: 30px;
+}
+
+#contact h2{
+    color: rgb(28, 83, 235);
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+
+#contact span{
+    color: rgb(0, 238, 255);
+}
+
+#contact h4{
+    font-size: 20px;
+    color: rgb(113, 197, 197);
+}
+
+#contact .media-icons {
+    display: flex;
+    font-size: 3rem;
+    line-height: 90px;
+    padding: 10px 30px;
+    justify-content: space-between;
+    width: 700px;
+    height: 70px;
+    margin: auto;
+    padding: auto;
+}
+
+#contact .media-icons a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+#contact .media-icons a:hover{
+    color: rgb(0, 162, 255);
+    transition: 0.15s;
+}
+
+#contact .media-icons a:active{
+    color: rgb(51, 213, 253);
+    transition: 0.15s;
+}
+hr{
+    position: relative;
+    top: 550px;
+}
+footer{
+    position: relative;
+    top: 550px;
+    color: white;
+    margin: 70px;
+    text-align: center;
+}
+
+footer span{
+    color: rgb(107, 233, 241);
+}
